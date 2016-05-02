@@ -19,18 +19,18 @@ import javax.swing.JOptionPane;
  *
  * @author user
  */
-public class customerTransaction {
+public class CustomerTransaction {
 
     public static HashMap<Object, Object> customerDetailsHashmap;
     private static String[][] customerDataValues;
 
-    public customerTransaction() {
+    public CustomerTransaction() {
         customerDetailsHashmap = new HashMap<>();
     }
     /*
     public static void main(String[] args) {
     //@FunctionalTest
-    new customerTransaction();
+    new CustomerTransaction();
     }*/
 
     public void insertCustomerDataToDb(String firstName, String lastName, String phone, String email, String prescription, String lastVisit, String nextAppointment, String diagnosis) {
