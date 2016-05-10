@@ -27,11 +27,6 @@ public class CustomerTransaction {
     public CustomerTransaction() {
         customerDetailsHashmap = new HashMap<>();
     }
-    /*
-    public static void main(String[] args) {
-    //@FunctionalTest
-    new CustomerTransaction();
-    }*/
 
     public void insertCustomerDataToDb(String firstName, String lastName, String phone, String email, String prescription, String lastVisit, String nextAppointment, String diagnosis) {
 
