@@ -191,4 +191,6 @@ public class CRMView extends JFrame{
         textField.stream()
                  .forEach( e -> e.setText(""));
     }
+    
+  //  getColorSwitchBackgroundEffect();
 }
